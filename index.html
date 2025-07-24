@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy 21st, Megha!</title>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body style="overflow-x: hidden;">
+
+  <!-- Intro Section with Gift -->
+  <div class="intro-section">
+    <h1 class="birthday-heading">Happy 21st Birthday, Megha!</h1>
+    <div class="giftbox-wrapper">
+      <img src="assets/giftbox.png" alt="Giftbox" class="giftbox" id="giftbox" />
+      <p class="click-to-open">Tap to unwrap ✨</p>
+    </div>
+
+    <canvas id="confetti-canvas"></canvas>
+  </div>
+
+  <!-- Message Section -->
+  <section class="next-section" id="message">
+    <div class="message-container">
+      <h2>To the one who makes light feel softer…</h2>
+      <div class="typed-lines">
+        <p>On this special day, I wanted to give you more than just wishes.</p>
+        <p>So I built this little place for you, by hand, line by line, heart by heart.</p>
+        <p>I hope it feels like me.</p>
+      </div>
+    </div>
+  </section>
+
+   <section class="twilight-section" id="twilight">
+  <div class="twilight-bg"></div>
+  <div class="floating-lanterns">
+    <div class="lantern"></div>
+    <div class="lantern"></div>
+    <div class="lantern"></div>
+  </div>
+  <div class="twilight-message">
+    <p>As twilight descends, I light up the sky with memories of you.</p>
+  </div>
+
+  
+  <div class="firefly-wrapper">
+    <div class="firefly"></div>
+    <div class="firefly"></div>
+    <div class="firefly"></div>
+    <div class="firefly"></div>
+    <div class="firefly"></div>
+    <div class="firefly"></div>
+    <div class="firefly"></div>
+    <div class="firefly"></div>
+    <div class="firefly"></div>
+    <div class="firefly"></div>
+  </div>
+</section>
+
+  <!-- Signature Section with Fireflies and Flip Card -->
+  <section class="signature-section" id="signature">
+    <div class="firefly-wrapper">
+      <!-- Fireflies -->
+      <div class="firefly"></div>
+      <div class="firefly"></div>
+      <div class="firefly"></div>
+      <div class="firefly"></div>
+      <div class="firefly"></div>
+      <div class="firefly"></div>
+      <div class="firefly"></div>
+      <div class="firefly"></div>
+      <div class="firefly"></div>
+      <div class="firefly"></div>
+
+      <!-- Card Flip -->
+      <div class="card" id="card">
+  <div class="card-inner" id="cardInner">
+    <div class="card-front">
+      <p class="flip-hint">Flip for a note ✨</p>
+    </div>
+    <div class="card-back">
+      <p class="closing-message">
+        From the one who made this,<br />
+        with all the softness, magic, and sincerity I carry—<br /><br />
+        this is from me to you.<br /><br />
+        <span class="birthday">Happy 21st, Megha</span><br />
+        <span class="signature">— Ritwik</span>
+      </p>
+    </div>
+  </div>
+</div>
+  </section>
+<section class="scroll-letter-section" id="scroll-letter">
+  <div class="scroll-container">
+    <img src="assets/vintage-scroll.png" alt="Scroll" class="scroll-image" />
+    <div class="scroll-text">
+      <p>Dear Megha,</p>
+      <p>This little scroll carries the words I could never say out loud,</p>
+      <p>the kind that whisper in quiet corners of the soul…</p>
+      <p>— Ritwik</p>
+    </div>
+  </div>
+</section>
+</section>
+<section class="cake-section" id="cake">
+  <div class="cake-container">
+    <img src="assets/cake.png" alt="Birthday Cake" class="cake-img">
+    <div class="candle">
+      <div class="flame" id="flame"></div>
+    </div>
+    <p class="blow-text">Blow the candle ✨</p>
+  </div>
+  <p class="wish-message" id="wishMessage">Make a wish. May it come true like mine did — having you in my life.</p>
+</section>
+  <!-- Scripts -->
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</body>
+</html>
